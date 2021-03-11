@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 0360dbbe5d85b5e43a83baca097920bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -461449922013484854
+    second: CHRD_PNG_BBACK
+  - first:
+      213: -6297535416000059052
+    second: CHRD_PNG_BARR
+  - first:
+      213: -8412828268580638363
+    second: CHRD_PNG_CHRD
+  - first:
+      213: 7953226696498518981
+    second: CHRD_PNG_3
+  - first:
+      213: 8035173811440411638
+    second: CHRD_PNG_BMENU
+  - first:
+      213: -3245907575077692066
+    second: CHRD_PNG_BPANEL_AM
+  - first:
+      213: -6104459621009506358
+    second: CHRD_PNG_BPANEL_DM
+  - first:
+      213: 115558159159007698
+    second: CHRD_PNG_BPANEL_EM
+  - first:
+      213: 2966228399599471232
+    second: CHRD_PNG_BGROUND
+  - first:
+      213: 9179478177456909917
+    second: CHRD_PNG_BPANEL_URH
+  - first:
+      213: 7483413705216750708
+    second: CHRD_PNG_10
+  - first:
+      213: 2954944255759712455
+    second: CHRD_PNG_BPREVIOUS
+  - first:
+      213: 4887778841256921582
+    second: CHRD_PNG_BPLAY
+  - first:
+      213: -94985948999040693
+    second: CHRD_PNG_BNEXT
+  - first:
+      213: 928799098091175796
+    second: CHRD_PNG_BMIXER
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CHRD_PNG_BBACK
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2090
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac821c4adb99899f0800000000000000
+      internalID: -461449922013484854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_BARR
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 2098
+        width: 154
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459efd8a7e8aa98a0800000000000000
+      internalID: -6297535416000059052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_CHRD
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2101
+        width: 218
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561f2e64341af3b80800000000000000
+      internalID: -8412828268580638363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_3
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2101
+        width: 167
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb92feda898f5e60800000000000000
+      internalID: 7953226696498518981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_BMENU
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 2097
+        width: 110
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f36d63620ca28f60800000000000000
+      internalID: 8035173811440411638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_BPANEL_AM
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1728
+        width: 235
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d9ebd024834f2d0800000000000000
+      internalID: -3245907575077692066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_BPANEL_DM
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1725
+        width: 254
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf3308415a984ba0800000000000000
+      internalID: -6104459621009506358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_BPANEL_EM
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1731
+        width: 505
+        height: 325
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d91293988b8a9100800000000000000
+      internalID: 115558159159007698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_BGROUND
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 312
+        width: 1045
+        height: 1829
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a4dc083092a2920800000000000000
+      internalID: 2966228399599471232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_BPANEL_URH
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 471
+        width: 754
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ee4c674ce046f70800000000000000
+      internalID: 9179478177456909917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_10
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 872
+        width: 54
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474fbb6bd1d6ad760800000000000000
+      internalID: 7483413705216750708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_BPREVIOUS
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 128
+        width: 134
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c083a70522120920800000000000000
+      internalID: 2954944255759712455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_BPLAY
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 128
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee90ac5a5f0e4d340800000000000000
+      internalID: 4887778841256921582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_BNEXT
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 131
+        width: 133
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41424b58ca8eaef0800000000000000
+      internalID: -94985948999040693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_BMIXER
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 116
+        width: 140
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f7d65dbd1c3ec00800000000000000
+      internalID: 928799098091175796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
