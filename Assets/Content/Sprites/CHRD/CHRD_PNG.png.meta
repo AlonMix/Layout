@@ -47,6 +47,36 @@ TextureImporter:
   - first:
       213: 928799098091175796
     second: CHRD_PNG_BMIXER
+  - first:
+      213: 5457568723565331068
+    second: CHRD_PNG_15
+  - first:
+      213: 1953512945212214877
+    second: CHRD_PNG_16
+  - first:
+      213: 7088909664952131074
+    second: CHRD_PNG_POINTS
+  - first:
+      213: -2063675881298128975
+    second: CHRD_PNG_5
+  - first:
+      213: -4457885328558082973
+    second: CHRD_PNG_6
+  - first:
+      213: 3513777177180127133
+    second: CHRD_PNG_7
+  - first:
+      213: 207409572090395239
+    second: CHRD_PNG_8
+  - first:
+      213: -8942914293897371371
+    second: CHRD_PNG_18
+  - first:
+      213: 8367144238005600889
+    second: CHRD_PNG_19
+  - first:
+      213: -7407088334313216051
+    second: CHRD_PNG_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,6 +160,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -249,97 +303,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHRD_PNG_BPANEL_AM
-      rect:
-        serializedVersion: 2
-        x: 27
-        y: 1728
-        width: 235
-        height: 325
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5d9ebd024834f2d0800000000000000
-      internalID: -3245907575077692066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHRD_PNG_BPANEL_DM
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 1725
-        width: 254
-        height: 329
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acf3308415a984ba0800000000000000
-      internalID: -6104459621009506358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHRD_PNG_BPANEL_EM
-      rect:
-        serializedVersion: 2
-        x: 551
-        y: 1731
-        width: 505
-        height: 325
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d91293988b8a9100800000000000000
-      internalID: 115558159159007698
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CHRD_PNG_BGROUND
-      rect:
-        serializedVersion: 2
-        x: 1268
-        y: 312
-        width: 1045
-        height: 1829
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08a4dc083092a2920800000000000000
-      internalID: 2966228399599471232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: CHRD_PNG_BPANEL_URH
       rect:
         serializedVersion: 2
-        x: 109
-        y: 471
-        width: 754
-        height: 406
+        x: 110
+        y: 740
+        width: 749
+        height: 135
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,8 +348,8 @@ TextureImporter:
       name: CHRD_PNG_BPREVIOUS
       rect:
         serializedVersion: 2
-        x: 1104
-        y: 128
+        x: 1238
+        y: 158
         width: 134
         height: 81
       alignment: 0
@@ -396,34 +366,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CHRD_PNG_BPLAY
-      rect:
-        serializedVersion: 2
-        x: 1294
-        y: 128
-        width: 77
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee90ac5a5f0e4d340800000000000000
-      internalID: 4887778841256921582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: CHRD_PNG_BNEXT
       rect:
         serializedVersion: 2
-        x: 1421
-        y: 131
-        width: 133
-        height: 76
+        x: 1476
+        y: 156
+        width: 140
+        height: 85
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +390,10 @@ TextureImporter:
       name: CHRD_PNG_BMIXER
       rect:
         serializedVersion: 2
-        x: 1652
-        y: 116
+        x: 1630
+        y: 156
         width: 140
-        height: 107
+        height: 85
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,6 +403,195 @@ TextureImporter:
       bones: []
       spriteID: 47f7d65dbd1c3ec00800000000000000
       internalID: 928799098091175796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_POINTS
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 133
+        width: 181
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e1e4818cdd06260800000000000000
+      internalID: 7088909664952131074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_5
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 961
+        width: 230
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf0fa348b95c53e0800000000000000
+      internalID: -2063675881298128975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_6
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 961
+        width: 250
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364bedd99e86222c0800000000000000
+      internalID: -4457885328558082973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_7
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 961
+        width: 250
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f32b1d9b173c030800000000000000
+      internalID: 3513777177180127133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_8
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 594
+        width: 230
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ab67b28edd0e200800000000000000
+      internalID: 207409572090395239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_18
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 156
+        width: 140
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511eb7fc4d264e380800000000000000
+      internalID: -8942914293897371371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_19
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 139
+        width: 150
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972c7ca7a511e1470800000000000000
+      internalID: 8367144238005600889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 601
+        width: 750
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc72255876cb43990800000000000000
+      internalID: -7407088334313216051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CHRD_PNG_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 469
+        width: 750
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72c461b6dd2dbb40800000000000000
+      internalID: 5457568723565331068
       vertices: []
       indices: 
       edges: []
