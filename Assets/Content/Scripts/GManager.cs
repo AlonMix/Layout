@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class GManager : MonoBehaviour
 {
 
@@ -88,6 +88,17 @@ public class GManager : MonoBehaviour
     RectTransform EM_rt;
     public int r;
     public int f_;
+
+    
+    public void TransitionCHRD()
+    {
+        SceneManager.LoadScene("Layout_CHRD");
+    }
+
+    public void TransitionARR()
+    {
+        SceneManager.LoadScene("Layout_ARR");
+    }
     private void Start()
     {
         //Ruler_rt = Ruler.GetComponent<RectTransform>();
