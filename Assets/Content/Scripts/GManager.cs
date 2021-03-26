@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class GManager : MonoBehaviour
 {
 
@@ -33,7 +34,7 @@ public class GManager : MonoBehaviour
             p = false;
         }
     }
-
+    public float float_;
     public void OnClickUndo()
     {
         if (f == false)
@@ -52,26 +53,26 @@ public class GManager : MonoBehaviour
 
         if (sc == 0)
         {
-            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - 15, Obj_AmDmEm[0].transform.localPosition.y);
+            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - float_, Obj_AmDmEm[0].transform.localPosition.y);
             for (int i = 1; i <= 3; i++)
             {
-                Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x + 15, Obj_AmDmEm[i].transform.localPosition.y);
+                Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x + float_, Obj_AmDmEm[i].transform.localPosition.y);
             }
             sc++;
         }
         else if (sc == 1)
         {
-            Obj_AmDmEm[1].transform.localPosition = new Vector3(Obj_AmDmEm[1].transform.localPosition.x - 15, Obj_AmDmEm[1].transform.localPosition.y);
-            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - 15, Obj_AmDmEm[0].transform.localPosition.y);
+            Obj_AmDmEm[1].transform.localPosition = new Vector3(Obj_AmDmEm[1].transform.localPosition.x - float_, Obj_AmDmEm[1].transform.localPosition.y);
+            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - float_, Obj_AmDmEm[0].transform.localPosition.y);
             for (int i = 2; i <= 3; i++)
             {
-                Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x + 15, Obj_AmDmEm[i].transform.localPosition.y);
+                Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x + float_, Obj_AmDmEm[i].transform.localPosition.y);
             }
             sc++;
         }
         else if (sc == 2)
         {
-            Obj_AmDmEm[3].transform.localPosition = new Vector3(Obj_AmDmEm[3].transform.localPosition.x + 30, Obj_AmDmEm[3].transform.localPosition.y);
+            Obj_AmDmEm[3].transform.localPosition = new Vector3(Obj_AmDmEm[3].transform.localPosition.x + float_+15, Obj_AmDmEm[3].transform.localPosition.y);
             sc++;
         }
     }
