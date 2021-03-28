@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 157
+  controlID: 152
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 86
+  controlID: 83
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 87
+  controlID: 84
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -394,19 +394,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Content/Sprites/ARR
+    - Assets/Content/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Content/Sprites/ARR
+  - Assets/Content/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\GithubPro\Layout
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4a3d0000
-    m_LastClickedID: 15690
+    m_SelectedIDs: 463d0000
+    m_LastClickedID: 15686
     m_ExpandedIDs: 00000000383d00003a3d00003c3d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -462,8 +462,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000036470000163e0000dc4e0000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000036470000163e0000dc4e000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -558,23 +558,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 62fbffff
+      m_SelectedIDs: 9ac1ffff
+      m_LastClickedID: -15974
+      m_ExpandedIDs: c8c7ffff26caffff24d0ffff48d8ffff72e2ffff6ee8ffff8eeeffff62fbffff923a0000ec3a00001a3b0000ae3b0000364600001c520000e056000088620000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Btn_Previous
+        m_OriginalName: Btn_Previous
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 17892
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -620,9 +620,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.0496172, y: -2.2337167, z: 19.505005}
+    m_Target: {x: 2.0733953, y: -4.0430465, z: 5.2774925}
     speed: 2
-    m_Value: {x: 1.0397996, y: -2.127687, z: 19.158878}
+    m_Value: {x: 2.0733953, y: -4.0430465, z: 5.2774925}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -672,9 +672,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.738472
+    m_Target: 0.95207584
     speed: 2
-    m_Value: 5.4913607
+    m_Value: 0.95207584
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -758,7 +758,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -771,7 +771,7 @@ MonoBehaviour:
       y: 21
       width: 364
       height: 634
-    m_Scale: {x: 0.33703703, y: 0.33703703}
+    m_Scale: {x: 0.33020833, y: 0.33020833}
     m_Translation: {x: 182, y: 317}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -779,12 +779,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -540
-      y: -940.5495
-      width: 1080
-      height: 1881.099
+      x: -551.1672
+      y: -960
+      width: 1102.3344
+      height: 1920
     m_MinimalGUI: 1
-  m_defaultScale: 0.33703703
+  m_defaultScale: 0.33020833
   m_LastWindowPixelSize: {x: 364, y: 655}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
