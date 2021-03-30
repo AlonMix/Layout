@@ -6323,12 +6323,15 @@ MonoBehaviour:
   Undo: {fileID: 239904525}
   Obj_AmDmEm: []
   float_: 0
+  fr: 0
+  gr: 0
   Am: {fileID: 0}
   Ruler: {fileID: 999767871}
   DM: {fileID: 1762071335}
   EM: {fileID: 0}
   r: 1
   f_: 5
+  Mld_Panel: {fileID: 0}
 --- !u!4 &879675559
 Transform:
   m_ObjectHideFlags: 0
