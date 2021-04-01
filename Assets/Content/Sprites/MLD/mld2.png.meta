@@ -14,6 +14,15 @@ TextureImporter:
   - first:
       213: 1115323215758777250
     second: mld2_3
+  - first:
+      213: 8944831198159704184
+    second: mld2_4
+  - first:
+      213: -9055850976498869846
+    second: mld2_5
+  - first:
+      213: 6514508307592952610
+    second: mld2_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -143,7 +152,7 @@ TextureImporter:
         width: 750
         height: 405
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -164,7 +173,7 @@ TextureImporter:
         width: 133
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -185,7 +194,7 @@ TextureImporter:
         width: 92
         height: 92
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,12 +210,12 @@ TextureImporter:
       name: mld2_3
       rect:
         serializedVersion: 2
-        x: 567
-        y: 1127
-        width: 227
-        height: 229
+        x: 640
+        y: 1281
+        width: 80
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,6 +223,69 @@ TextureImporter:
       bones: []
       spriteID: 2ab5c053e8c6a7f00800000000000000
       internalID: 1115323215758777250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mld2_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1201
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870142e359c622c70800000000000000
+      internalID: 8944831198159704184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mld2_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1121
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa919ee4487235280800000000000000
+      internalID: -9055850976498869846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mld2_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1202
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bb8685ace286a50800000000000000
+      internalID: 6514508307592952610
       vertices: []
       indices: 
       edges: []

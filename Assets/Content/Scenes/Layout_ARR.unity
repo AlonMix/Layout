@@ -6332,6 +6332,12 @@ MonoBehaviour:
   r: 1
   f_: 5
   Mld_Panel: {fileID: 0}
+  g: 0
+  Mixer: {fileID: 0}
+  MixerPanel01: {fileID: 0}
+  MixerPanel02: {fileID: 0}
+  Pref: {fileID: 0}
+  Slid: {fileID: 0}
 --- !u!4 &879675559
 Transform:
   m_ObjectHideFlags: 0
@@ -7718,7 +7724,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1143002498}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 879675558}
+        m_MethodName: TransitionMLD
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1143002498
 MonoBehaviour:
   m_ObjectHideFlags: 0

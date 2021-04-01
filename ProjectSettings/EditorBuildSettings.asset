@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Content/Scenes/Layout_CHRD.unity
     guid: f79baf95323f74345aead608f18cf0b3
+  - enabled: 1
+    path: Assets/Content/Scenes/Layout_MLD.unity
+    guid: d9b1d8afde66ca8418788896f48cc847
   m_configObjects: {}

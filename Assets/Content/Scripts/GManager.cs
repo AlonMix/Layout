@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class GManager : MonoBehaviour
 {
 
@@ -101,7 +101,10 @@ public class GManager : MonoBehaviour
     {
         SceneManager.LoadScene("Layout_CHRD");
     }
-
+    public void TransitionMLD()
+    {
+        SceneManager.LoadScene("Layout_MLD");
+    }
     public void TransitionARR()
     {
         SceneManager.LoadScene("Layout_ARR");
@@ -174,7 +177,35 @@ public class GManager : MonoBehaviour
         //Am_rt = Am.GetComponent<RectTransform>();       
         //DM_rt = DM.GetComponent<RectTransform>();
         //EM_rt = EM.GetComponent<RectTransform>();
+        Pref = GetComponent<RectTransform>();
     }
+
+    public RectTransform Pref;
+    public Slider Slid;
+    private int number = 1;
+    public void ScaleInc()
+    {       
+        if (number<=17)
+        {           
+            number++;
+            Slid.value = number;
+        }
+        if(number == 16)
+        {
+          
+            Pref.anchoredPosition = new Vector2();
+        }
+    }
+    public void ScaleDec()
+    {
+        Slid.value = number;
+        if (number >= 0)
+        {
+            Debug.Log(number);
+            number--;
+        }
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown("space"))

@@ -700,7 +700,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1956311632}
         m_MethodName: TransitionCHRD
         m_Mode: 1
         m_Arguments:
@@ -3949,7 +3949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1981132, g: 0.1981132, b: 0.1981132, a: 1}
+  m_Color: {r: 0.62352943, g: 0.62352943, b: 0.62352943, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -4182,7 +4182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.62352943, g: 0.62352943, b: 0.62352943, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -8480,7 +8480,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1718405492}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1956311632}
+        m_MethodName: TransitionARR
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1718405492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9942,7 +9953,12 @@ MonoBehaviour:
   r: 0
   f_: 0
   Mld_Panel: {fileID: 0}
+  g: 0
   Mixer: {fileID: 0}
+  MixerPanel01: {fileID: 0}
+  MixerPanel02: {fileID: 0}
+  Pref: {fileID: 0}
+  Slid: {fileID: 0}
 --- !u!4 &1956311633
 Transform:
   m_ObjectHideFlags: 0
@@ -10163,7 +10179,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2031302313}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1956311632}
+        m_MethodName: TransitionMLD
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2031302313
 MonoBehaviour:
   m_ObjectHideFlags: 0
