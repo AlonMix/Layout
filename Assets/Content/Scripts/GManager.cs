@@ -55,30 +55,24 @@ public class GManager : MonoBehaviour
 
         if (sc == 0)
         {
-            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - float_, Obj_AmDmEm[0].transform.localPosition.y);
+            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - 50, Obj_AmDmEm[0].transform.localPosition.y);
             for (int i = 1; i <= 3; i++)
             {
-                Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x + float_, Obj_AmDmEm[i].transform.localPosition.y);
+                Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x + 50, Obj_AmDmEm[i].transform.localPosition.y);
             }
             sc++;
         }
         else if (sc == 1)
-        {
-            Obj_AmDmEm[1].transform.localPosition = new Vector3(Obj_AmDmEm[1].transform.localPosition.x - float_, Obj_AmDmEm[1].transform.localPosition.y);
-            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - float_, Obj_AmDmEm[0].transform.localPosition.y);
-            for (int i = 2; i <= 3; i++)
-            {
-                Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x + float_, Obj_AmDmEm[i].transform.localPosition.y);
-            }
+        {            
+            Obj_AmDmEm[1].transform.localPosition = new Vector3(Obj_AmDmEm[1].transform.localPosition.x - 66.6f, Obj_AmDmEm[1].transform.localPosition.y);
             sc++;
         }
         else if (sc == 2)
         {
-            for (int i = 0; i <= 2; i++)
-            {
-                Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x - fr, Obj_AmDmEm[i].transform.localPosition.y);
-            }
-            Obj_AmDmEm[3].transform.localPosition = new Vector3(Obj_AmDmEm[3].transform.localPosition.x + fr+gr, Obj_AmDmEm[3].transform.localPosition.y);
+            Debug.Log("f");
+            Obj_AmDmEm[2].transform.localPosition = new Vector3(Obj_AmDmEm[2].transform.localPosition.x - 33.6f, Obj_AmDmEm[1].transform.localPosition.y);
+
+
             sc++;
         }
     }
@@ -177,46 +171,66 @@ public class GManager : MonoBehaviour
         //Am_rt = Am.GetComponent<RectTransform>();       
         //DM_rt = DM.GetComponent<RectTransform>();
         //EM_rt = EM.GetComponent<RectTransform>();
-        Pref = GetComponent<RectTransform>();
+        rt = Ref.GetComponent<RectTransform>();
     }
 
-    public RectTransform Pref;
-    public Slider Slid;
-    private int number = 1;
+    public GameObject Ref;
+    public RectTransform rt;
+    private int number;
+    public float Scale = 92.5125f;
+    public float Froar;
+    //posX увеличиваем на 50 за каждые +2 scale 
+    public bool numberTrue;
     public void ScaleInc()
-    {       
-        if (number<=17)
-        {           
-            number++;
-            Slid.value = number;
-        }
-        if(number == 16)
-        {
-          
-            Pref.anchoredPosition = new Vector2();
-        }
-    }
+    {
+      //  Scale = Ref.transform.localScale.x * 50;
+      
+        numberTrue = true;
+    }    
     public void ScaleDec()
     {
-        Slid.value = number;
-        if (number >= 0)
+       // Scale = Ref.transform.localScale.x * 50;
+      //  Ref.GetComponent<RectTransform>().sizeDelta = new Vector2(50-Scale, Ref.GetComponent<RectTransform>().sizeDelta.y);
+        numberTrue = true;
+    }
+    public void MoveRight()
+    {
+        Froar = rt.sizeDelta.x/2;
+
+        Debug.Log(rt.sizeDelta.x);
+        if (number <= 14)
         {
-            Debug.Log(number);
-            number--;
+            number++;
+           
+            Ref.GetComponent<RectTransform>().transform.localPosition = new Vector3(Ref.transform.localPosition.x + Scale, Ref.transform.localPosition.y);
+            Debug.Log(Ref.transform.localPosition.x);
+        }
+        if (number == 15)
+        {
+
+            Ref.GetComponent<RectTransform>().transform.localPosition = new Vector3(Ref.transform.localPosition.x + Scale -100, Ref.transform.localPosition.y);
         }
     }
+    public void MoveLeft()
+    {
+        if (number >= 1)
+        {
+            number--;
 
+            Ref.GetComponent<RectTransform>().transform.localPosition = new Vector3(Ref.transform.localPosition.x - Scale, Ref.transform.localPosition.y);
+            Debug.Log(Ref.transform.localPosition.x);
+        }       
+    }
     private void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
+        
             /*
             Am_rt.sizeDelta = new Vector2(Ruler_rt.sizeDelta.x/16*r,Am_rt.sizeDelta.y);            
             EM_rt.sizeDelta = new Vector2(Ruler_rt.sizeDelta.x/16*(16-r+f_), Am_rt.sizeDelta.y);
             EM_rt.sizeDelta = new Vector2(Ruler_rt.sizeDelta.x / 16 * (16 - r+f_), Am_rt.sizeDelta.y);
             */
            
-        }
+      
     }
 
 }
