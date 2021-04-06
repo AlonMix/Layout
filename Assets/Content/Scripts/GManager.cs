@@ -55,22 +55,22 @@ public class GManager : MonoBehaviour
 
         if (sc == 0)
         {
-            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - 50, Obj_AmDmEm[0].transform.localPosition.y);
+            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - 30, Obj_AmDmEm[0].transform.localPosition.y);
             for (int i = 1; i <= 3; i++)
             {
-                Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x + 50, Obj_AmDmEm[i].transform.localPosition.y);
+                Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x + 30, Obj_AmDmEm[i].transform.localPosition.y);
             }
             sc++;
         }
         else if (sc == 1)
         {            
-            Obj_AmDmEm[1].transform.localPosition = new Vector3(Obj_AmDmEm[1].transform.localPosition.x - 66.6f, Obj_AmDmEm[1].transform.localPosition.y);
+            Obj_AmDmEm[1].transform.localPosition = new Vector3(Obj_AmDmEm[1].transform.localPosition.x - 40, Obj_AmDmEm[1].transform.localPosition.y);
             sc++;
         }
         else if (sc == 2)
         {
             Debug.Log("f");
-            Obj_AmDmEm[2].transform.localPosition = new Vector3(Obj_AmDmEm[2].transform.localPosition.x - 33.6f, Obj_AmDmEm[1].transform.localPosition.y);
+            Obj_AmDmEm[2].transform.localPosition = new Vector3(Obj_AmDmEm[2].transform.localPosition.x - 20, Obj_AmDmEm[1].transform.localPosition.y);
 
 
             sc++;
@@ -104,11 +104,25 @@ public class GManager : MonoBehaviour
         SceneManager.LoadScene("Layout_ARR");
     }
 
+    public GameObject Settings_;
+    private bool SettTrue;
+    public void CallSettings()
+    {
+        if (SettTrue == false)
+        {
+            Settings_.gameObject.SetActive(true);
+            SettTrue = true;
+        }
+        else if (SettTrue == true)
+        {
+            Settings_.gameObject.SetActive(false);
+            SettTrue = false;
+        }
+    }
     public GameObject Mld_Panel;
     public int g = 0;
     public void CallMld_Panel() 
-    {
-        Debug.Log(g);
+    {       
         if (g == 0)
         {
             Mld_Panel.gameObject.SetActive(true);
@@ -121,35 +135,55 @@ public class GManager : MonoBehaviour
         }
     }
     public GameObject Mixer;
+    public bool MLDMAinBool;
     public void CallMld_Mixer()
-    {
-        Debug.Log(g);
+    {      
         if (g ==0)
         {
             Mixer.gameObject.SetActive(true);
             g = 1;
+            MLDMAinBool = true;
         }
         else if (g ==1)
         {
            Mixer.gameObject.SetActive(false);
             g = 0;
+            MLDMAinBool = false;
+        }
+        if (MLDMAinBool == true)
+        {
+            MainMLD.gameObject.SetActive(false);           
+        }
+        else if (MLDMAinBool == false)
+        {
+            MainMLD.gameObject.SetActive(true);          
         }
     }
     public GameObject MixerPanel01;
     int k = 0;
+    public GameObject MainMLD;
     public void CallPanelMixer01()
     {
-        Debug.Log(g);
+        if (MLDMAinBool == true)
+        {
+            MainMLD.gameObject.SetActive(false);
+        }
+        else if (MLDMAinBool == false)
+        {
+            MainMLD.gameObject.SetActive(true);
+        }      
+       
         if (k ==0)
         {
             MixerPanel01.gameObject.SetActive(true);
             k = 1;
         }
-        else if (g ==1)
+        else if (k ==1)
         {
             MixerPanel01.gameObject.SetActive(false);
             k = 0;
-        }
+           
+        }       
     }
     public GameObject MixerPanel02;
     public void CallPanelMixer02()
@@ -163,6 +197,7 @@ public class GManager : MonoBehaviour
         {
             MixerPanel02.gameObject.SetActive(false);
             k = 0;
+            MLDMAinBool = true;
         }
     }
     private void Start()
@@ -197,7 +232,7 @@ public class GManager : MonoBehaviour
     {
         Froar = rt.sizeDelta.x/2;
 
-        Debug.Log(rt.sizeDelta.x);
+       
         if (number <= 14)
         {
             number++;
