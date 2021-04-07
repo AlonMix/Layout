@@ -6561,7 +6561,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1956311632}
         m_MethodName: OnClickUndo
         m_Mode: 1
         m_Arguments:
@@ -9952,13 +9952,20 @@ MonoBehaviour:
   EM: {fileID: 0}
   r: 0
   f_: 0
+  Settings_: {fileID: 0}
   Mld_Panel: {fileID: 0}
+  GreenHandle: {fileID: 0}
   g: 0
   Mixer: {fileID: 0}
+  MLDMAinBool: 0
   MixerPanel01: {fileID: 0}
+  MainMLD: {fileID: 0}
   MixerPanel02: {fileID: 0}
-  Pref: {fileID: 0}
-  Slid: {fileID: 0}
+  Ref: {fileID: 0}
+  rt: {fileID: 0}
+  Scale: 92.5125
+  Froar: 0
+  numberTrue: 0
 --- !u!4 &1956311633
 Transform:
   m_ObjectHideFlags: 0

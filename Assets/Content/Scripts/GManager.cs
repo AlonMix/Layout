@@ -120,16 +120,19 @@ public class GManager : MonoBehaviour
         }
     }
     public GameObject Mld_Panel;
+    public GameObject GreenHandle;
     public int g = 0;
     public void CallMld_Panel() 
     {       
         if (g == 0)
         {
             Mld_Panel.gameObject.SetActive(true);
+            GreenHandle.gameObject.SetActive(true);
             g = 1;
         }
         else if (g == 1)
         {
+            GreenHandle.gameObject.SetActive(false);
             Mld_Panel.gameObject.SetActive(false);
             g = 0;           
         }
