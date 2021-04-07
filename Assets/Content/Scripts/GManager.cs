@@ -50,6 +50,32 @@ public class GManager : MonoBehaviour
             f = false;
         }
     }
+    public void OnClickAmDmCHRD()
+    {
+
+        if (sc == 0)
+        {
+            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - 50, Obj_AmDmEm[0].transform.localPosition.y);
+            for (int i = 1; i <= 3; i++)
+            {
+                Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x + 50, Obj_AmDmEm[i].transform.localPosition.y);
+            }
+            sc++;
+        }
+        else if (sc == 1)
+        {
+            Obj_AmDmEm[1].transform.localPosition = new Vector3(Obj_AmDmEm[1].transform.localPosition.x - 60, Obj_AmDmEm[1].transform.localPosition.y);
+            sc++;
+        }
+        else if (sc == 2)
+        {
+            Debug.Log("f");
+            Obj_AmDmEm[2].transform.localPosition = new Vector3(Obj_AmDmEm[2].transform.localPosition.x - 30, Obj_AmDmEm[1].transform.localPosition.y);
+
+
+            sc++;
+        }
+    }
     public void OnClickAmDmEm()
     {
 
@@ -209,7 +235,7 @@ public class GManager : MonoBehaviour
         //Am_rt = Am.GetComponent<RectTransform>();       
         //DM_rt = DM.GetComponent<RectTransform>();
         //EM_rt = EM.GetComponent<RectTransform>();
-        rt = Ref.GetComponent<RectTransform>();
+       
     }
 
     public GameObject Ref;
@@ -234,8 +260,8 @@ public class GManager : MonoBehaviour
     public void MoveRight()
     {
         Froar = rt.sizeDelta.x/2;
+        rt = Ref.GetComponent<RectTransform>();
 
-       
         if (number <= 14)
         {
             number++;
@@ -251,6 +277,7 @@ public class GManager : MonoBehaviour
     }
     public void MoveLeft()
     {
+        rt = Ref.GetComponent<RectTransform>();
         if (number >= 1)
         {
             number--;
