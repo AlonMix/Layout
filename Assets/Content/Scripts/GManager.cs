@@ -55,7 +55,7 @@ public class GManager : MonoBehaviour
 
         if (sc == 0)
         {
-            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - 50, Obj_AmDmEm[0].transform.localPosition.y);
+            Obj_AmDmEm[0].transform.localPosition = new Vector3(Obj_AmDmEm[0].transform.localPosition.x - 45, Obj_AmDmEm[0].transform.localPosition.y);
             for (int i = 1; i <= 3; i++)
             {
                 Obj_AmDmEm[i].transform.localPosition = new Vector3(Obj_AmDmEm[i].transform.localPosition.x + 50, Obj_AmDmEm[i].transform.localPosition.y);
